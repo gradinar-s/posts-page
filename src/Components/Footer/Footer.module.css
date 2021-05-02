@@ -1,0 +1,17 @@
+.row {
+  padding: 15px 20px;
+  text-align: center;
+}
+.copy {
+  color: #ccc;
+  position: relative;
+}
+.copy::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+}
